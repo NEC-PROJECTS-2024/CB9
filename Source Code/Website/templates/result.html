@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../static/styles/result.css">
+    <title>Dog Breed Detector</title>
+</head>
+<body>
+
+    <div id="navbar">
+        <h1 id="logo">
+            Dog Breed Identification
+        </h1>
+        <div id="navigation">
+            <a href="/">Home</a>
+            <a href="/predict">Breed Predictor</a>
+            <a href="/aboutus">About Us</a>
+        </div>
+    </div>
+
+    <h1>Prediction Result</h1>
+
+    <p>The predicted breed of your dog is: {{ predicted_breed }}</p>
+    <a href="/">Go back to Home</a>
+
+</body>
+</html>

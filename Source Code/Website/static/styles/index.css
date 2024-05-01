@@ -1,0 +1,135 @@
+* {
+    font-family: Arial;
+    font-size: 32px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:antiquewhite;
+    height: 13vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
+}
+
+#logo {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    font-size: 1rem;
+    margin: 10px;
+    margin-top: 15px;
+    height: 40px;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end
+}
+
+#navigation a {
+    text-decoration: none;
+    font-size: 0.6rem;
+    font-family: monospace;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+#navigation a:hover {
+    text-decoration: none;
+    font-size: 0.6rem;
+    font-family: monospace;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: royalblue;
+    /* background: rgb(233,238,74);
+    background: radial-gradient(circle, rgba(233,238,74,0.6655554677925858) 79%, rgba(242,255,61,0.9344630308177959) 96%); */
+    height: 85vh;
+}
+
+#box1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-left: 110px;
+}
+
+#text1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#text2 {
+    font-size: 0.6rem;
+    color: white;
+    padding-left: 5px;
+}
+
+#box1 #button a{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid black;
+    color: black;
+    padding: 5px;
+    font-size: 0.6rem;
+    margin-left: 5px;
+    
+}
+
+#box1 #button:hover a:hover{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    font-size: 0.6rem;
+    margin-left: 5px;
+    font-weight: bold;
+    
+}
+
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#img1 img {
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
+

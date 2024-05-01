@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Detector</title>
+    <link rel="stylesheet" href="./../static/styles/predict.css">
+</head>
+<body>
+    <div id="navbar">
+        <h1 id="logo">
+            Dog Breed Identification
+        </h1>
+        <div id="navigation">
+            <a href="/">Home</a>
+            <a href="/predict">Breed Predictor</a>
+            <a href="/aboutus">About Us</a>
+        </div>
+    </div>
+    <h1>Upload an Image to Predict the Dog Breed</h1>
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="file">Select an Image:</label>
+        <input type="file" name="file" id="file" accept="image/*" required>
+        <input type="submit" value="Predict">
+    </form>
+
+</body>
+</html>
